@@ -42,7 +42,7 @@ class stack{
 
         void print(){
             cout << '[';
-            for (int i = 0; i < top+1; i++)
+            for (int i = top; i>=0; i--)
             {
 
                 cout <<" "<< item[i]<<" ";
@@ -52,3 +52,4 @@ class stack{
 
 
 };
+
