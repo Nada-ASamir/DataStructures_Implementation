@@ -21,7 +21,7 @@
         return arr[size - 1];
     }
     bool Stack2::empty(){
-        return size;
+        return size==0;
     }
     Stack2::~Stack2(){
         delete[] arr;
